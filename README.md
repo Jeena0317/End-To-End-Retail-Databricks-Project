@@ -1,7 +1,9 @@
 📊 Retail Data Pipeline (Databricks)
 🚀 Overview
 
-This project builds a data pipeline in Databricks using PySpark to process retail data from raw format to useful insights.
+This project builds a data pipeline in Databricks using PySpark
+
+It processes retail data from raw format to useful insights
 
 🏗️ Flow
 CSV File → Bronze → Silver → Gold
@@ -22,11 +24,10 @@ Removed duplicates
 Created total_amount
 📊 Gold Layer
 Aggregated data for analysis
-Calculated:
-Total sales
-Total orders
-Average price
-Customer metrics
+Calculated total sales
+Calculated total orders
+Calculated average price
+Created customer metrics
 📈 KPI Table
 Total revenue
 Total customers
@@ -38,4 +39,6 @@ gold_aggregates
 gold_kpis_final
 🎯 Conclusion
 
-Built a simple end-to-end pipeline in Databricks to transform raw data into useful insights.
+Built a simple end-to-end pipeline in Databricks
+
+Converted raw data into clean and useful insights
